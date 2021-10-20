@@ -1,6 +1,5 @@
-var builder = WebApplication.CreateBuilder(args);
+ï»¿var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
-
-app.MapGet("/", () => "Rus ?  ôèã òàì áûë!");
+app.MapGet("/", () => "Rus ?  Ñ„Ð¸Ð³ Ñ‚Ð°Ð¼ Ð±Ñ‹Ð»))!");
 
 app.Run();
